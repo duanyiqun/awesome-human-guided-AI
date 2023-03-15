@@ -54,7 +54,19 @@ Along with the rise of stable diffusion/GPT based models
 ### Biological Trustworthy
 
 
-## Ways to Inject Guidanc
+## Ways to Conduct Guidance
+
+
 
 ### RLHF
 
+Reinforcement Learning from Human Feedback (RLHF) is a technique that uses methods from reinforcement learning to directly optimize a language model with human feedback. RLHF has enabled language models to align better with complex human values and preferences. RLHF’s most recent success was its use in ChatGPT, a state-of-the-art conversational agent.
+
+| Catagory  | Paper                                                                                                                | Year | Git       |
+|-----------|----------------------------------------------------------------------------------------------------------------------|------|-----------|
+| PbRL      | [Preference-based reinforcement learning: a formal framework and a policy iteration algorithm ](https://link.springer.com/article/10.1007/s10994-012-5313-8)                        | 2012 | N/A       |
+| PbRL      | [Preference-based reinforcement learning: evolutionary direct policy search using a preference-based racing algorithm](https://link.springer.com/article/10.1007/s10994-014-5458-8) | 2014 | N/A       |
+| PbRL      | [Preference-based Reinforcement Learning with Finite-Time Guarantees](https://arxiv.org/abs/2006.08910)                                                  | 2020 | N/A       |
+| PbRL      | [B-Pref: Benchmarking Preference-Based Reinforcement Learning](https://arxiv.org/abs/2111.03026)                                                         | 2021 | N/A       |
+| PbRL      | [MicroSoft Research talk: Reinforcement learning with preference feedback](https://www.microsoft.com/en-us/research/video/research-talk-reinforcement-learning-with-preference-feedback/)                                             | 2021 | N/A       |
+| PbRL/RLHF | [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/pdf/2203.02155.pdf)                                    | 2022 | [chatllama](https://github.com/juncongmoo/chatllama.git) |
